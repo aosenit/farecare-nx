@@ -2,9 +2,12 @@
   "name": "@farecare-workspace/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
+  },
   "private": true,
   "dependencies": {
+    "@angular-architects/module-federation": "^18.0.4",
     "@angular/animations": "~18.0.0",
     "@angular/common": "~18.0.0",
     "@angular/compiler": "~18.0.0",
@@ -32,6 +35,8 @@
     "@nx/eslint-plugin": "19.4.2",
     "@nx/jest": "19.4.2",
     "@nx/js": "19.4.2",
+    "@nx/web": "19.4.2",
+    "@nx/webpack": "19.4.2",
     "@nx/workspace": "19.4.2",
     "@schematics/angular": "~18.0.0",
     "@swc-node/register": "~1.9.1",
@@ -50,6 +55,7 @@
     "jest-preset-angular": "~14.1.0",
     "jsonc-eslint-parser": "^2.1.0",
     "ng-packagr": "^18.0.0",
+    "ngx-build-plus": "^18.0.0",
     "nx": "19.4.2",
     "postcss": "^8.4.5",
     "postcss-url": "~10.1.3",
